@@ -1,0 +1,22 @@
+* {
+    margin: 0%;
+    padding: 0%;
+}
+
+header {
+    min-height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(47, 140, 172, 0.4), rgba(47, 140, 172, 0.4)), url(images/hero-image.jpg);
+    background-position: center;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline-block;
+    padding: 8px 12px;
+}
