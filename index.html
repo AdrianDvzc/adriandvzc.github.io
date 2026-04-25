@@ -4,20 +4,60 @@
         <title>Aqua's Page For Navigation Through The Aqua Way</title>
     </head>
     <body>
-        <h2>This is the main page to navigate trough my websites.</h2>
-        <ul>
-            <li><a href="first-site/home.html">website for plumbing service (WIP)</a></li>
-            <li><a href="">restaurant site (WIP)</a></li>
-        </ul>
+        <header>
+            <img id="hero" src="images/hero-banner_edited.png">
+        </header>
+        <main>
+            <h2>This is the main page to navigate trough my websites.</h2>
+            <ul>
+                <li><a href="first-site/home.html">website for plumbing service (WIP)</a></li>
+                <li><a href="">restaurant site (WIP)</a></li>
+            </ul>
+            <nav>
+                <div id="firstsite">
+                    <p>Jane Doe's Plumbing business</p>
+                    <img alt="image of first website">
+                </div>
+                <div id="secondsite">
+                    <img src="" alt="image of second website">
+                </div>
+                <div id="thirdsite">
+                    <img src="" alt="image of third website">
+                </div>
+            </nav>
+        </main>
+        
     </body>
     <style>
         * {
             text-align: center;
+            margin: 0%;
+            padding:0%;
+            color: white;
+        }
+
+        a {
+            text-decoration: none;
+        }
+
+        body {
+            background-color: #5f59c8;
+        }
+
+        #hero {
+            width: 100%;
+            height: auto;
         }
 
         li {
             list-style: none;
             padding-top: 20px;
+        }
+
+        nav {
+            justify-content: center;
+            display: flex;
+            padding: 12px;
         }
     </style>
 </html>
